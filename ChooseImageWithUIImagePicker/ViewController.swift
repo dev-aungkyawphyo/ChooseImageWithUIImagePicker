@@ -8,6 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: - IBOutlets
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var chooseImageBtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
